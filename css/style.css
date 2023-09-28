@@ -6,6 +6,7 @@
   --product-brown: #413e01;
   --product-yellow: #fffa87;
   --background-gray: #ecebeb;
+  --product-lightgray: rgb(231, 231, 231);
 }
 
 * {
@@ -21,28 +22,46 @@ body {
   font-family: Arial, sans-serif;
 }
 
+/*............PRODUCT - BOOTS...............*/
+
 .boots-container {
   width: 40%;
+  height: fit-content;
   margin: 5%;
   padding: 2%;
   border: 1px solid rgba(128, 128, 128, 0.493);
+
+  position: relative;
 }
 
 .boots-bestseller-label {
   background: var(--product-yellow);
+
   color: var(--product-gray);
   font-weight: bold;
+  font-size: 1.25rem;
+
   padding: 1% 3%;
   border-radius: 5%;
+
+  position: absolute;
+  right: 5%;
+  top: 4%;
 }
 
 .boots-discount-label {
   background: var(--product-red);
+
   color: var(--product-white);
   font-weight: bold;
-  font-size: 1.25rem;
+  font-size: 1.45rem;
+
   padding: 7% 3%;
   border-radius: 50%;
+
+  position: absolute;
+  left: 12%;
+  top: 7%;
 }
 
 .boots-photo {
@@ -52,3 +71,106 @@ body {
 .boots-photo img {
   width: inherit;
 }
+
+.boots-product-name {
+  font-weight: bold;
+  font-size: 1.85rem;
+  text-align: center;
+}
+
+.boots-uppercase {
+  text-transform: uppercase;
+}
+
+.boots-product-description {
+  padding: 0.5rem;
+}
+
+.boots-product-description details summary {
+  text-transform: lowercase;
+  text-decoration: underline;
+  color: var(--product-gray);
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.ship-info-container {
+  margin: 5% 0;
+  height: 4rem;
+
+  background: var(--product-lightgray);
+
+  position: relative;
+}
+
+.boots-shippment-label {
+  background: var(--product-white);
+
+  color: var(--product-red);
+  font-weight: bold;
+  font-size: 0.85rem;
+
+  padding: 2% 1%;
+  border: 2px solid var(--product-red);
+  border-radius: 5%;
+  margin: 3%;
+
+  position: absolute;
+  left: 0%;
+  top: 10%;
+}
+
+.boots-stock-info {
+  color: var(--product-green);
+  font-weight: bold;
+  font-size: 0.85rem;
+  text-decoration: underline;
+
+  padding: 2% 1%;
+  margin: 3%;
+
+  position: absolute;
+  right: 0%;
+  top: 10%;
+}
+
+.boots-price-text {
+  font-weight: bold;
+  font-size: 0.9rem;
+
+  margin: 0.5rem;
+}
+
+.boots-usual-price {
+  color: var(--product-gray);
+  font-size: 0.9rem;
+  text-decoration: line-through;
+
+  margin: 0.5rem;
+}
+
+.boots-discount-price {
+  font-size: 1.5rem;
+  font-weight: bold;
+
+  margin: 0.5rem;
+}
+
+.boots-add-to-cart-button {
+  background: var(--product-red);
+
+  font-weight: bold;
+  font-size: 1.45rem;
+
+  padding: 2% 0;
+  margin: 0 10%;
+  text-align: center;
+  width: 80%;
+}
+
+.boots-add-to-cart-button a {
+  text-decoration: none;
+  color: var(--product-white);
+}
+
+/*............PRODUCT - ...............*/

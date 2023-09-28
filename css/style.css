@@ -1,3 +1,5 @@
+/*..............................BASICS..........................*/
+
 * {
   --product-white: #fff;
   --product-red: #ee1212;
@@ -21,7 +23,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/*............PRODUCT - BOOTS...............*/
+/*..........................PRODUCT - BOOTS.....................*/
 
 .boots-container {
   width: 50%;
@@ -48,19 +50,28 @@ body {
   top: 4%;
 }
 
-.boots-discount-label {
+.boots-discount-label-container {
   background: var(--product-red);
 
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+
+  position: absolute;
+  left: 10%;
+  top: 5%;
+
+  text-align: center;
+}
+
+.boots-discount-label {
   color: var(--product-white);
   font-weight: bold;
   font-size: 1.45rem;
 
-  padding: 7% 3%;
-  border-radius: 50%;
-
   position: absolute;
-  left: 12%;
-  top: 7%;
+  left: 10%;
+  top: 30%;
 }
 
 .boots-photo {
@@ -175,7 +186,11 @@ body {
   color: var(--product-white);
 }
 
-/*............PRODUCT - CAN...............*/
+.boots-add-to-cart-button:hover {
+  background: #f46161;
+}
+
+/*..........................PRODUCT - CAN......................*/
 
 .can-container {
   width: 50%;
@@ -202,19 +217,28 @@ body {
   top: 4%;
 }
 
-.can-discount-label {
+.can-discount-label-container {
   background: var(--product-red);
 
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+
+  position: absolute;
+  left: 10%;
+  top: 7%;
+
+  text-align: center;
+}
+
+.can-discount-label {
   color: var(--product-white);
   font-weight: bold;
   font-size: 1.45rem;
 
-  padding: 6% 3%;
-  border-radius: 50%;
-
   position: absolute;
-  left: 7%;
-  top: 5%;
+  left: 15%;
+  top: 33%;
 }
 
 .can-photo {
@@ -317,4 +341,8 @@ body {
 .can-add-to-cart-button a {
   text-decoration: none;
   color: var(--product-white);
+}
+
+.can-add-to-cart-button:hover {
+  background: #f46161;
 }

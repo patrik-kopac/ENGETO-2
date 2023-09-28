@@ -13,7 +13,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid red;
 }
 
 body {
@@ -25,7 +24,7 @@ body {
 /*............PRODUCT - BOOTS...............*/
 
 .boots-container {
-  width: 40%;
+  width: 50%;
   height: fit-content;
   margin: 5%;
   padding: 2%;
@@ -42,7 +41,7 @@ body {
   font-size: 1.25rem;
 
   padding: 1% 3%;
-  border-radius: 5%;
+  border-radius: 3%;
 
   position: absolute;
   right: 5%;
@@ -76,6 +75,7 @@ body {
   font-weight: bold;
   font-size: 1.85rem;
   text-align: center;
+  margin: 2% 0;
 }
 
 .boots-uppercase {
@@ -94,9 +94,9 @@ body {
   padding: 0.5rem;
 }
 
-.ship-info-container {
-  margin: 5% 0;
-  height: 4rem;
+.boots-ship-info-container {
+  padding: 8%;
+  margin-bottom: 16px;
 
   background: var(--product-lightgray);
 
@@ -114,6 +114,7 @@ body {
   border: 2px solid var(--product-red);
   border-radius: 5%;
   margin: 3%;
+  display: inline-block;
 
   position: absolute;
   left: 0%;
@@ -128,6 +129,7 @@ body {
 
   padding: 2% 1%;
   margin: 3%;
+  display: inline-block;
 
   position: absolute;
   right: 0%;
@@ -163,7 +165,7 @@ body {
   font-size: 1.45rem;
 
   padding: 2% 0;
-  margin: 0 10%;
+  margin: 5% 10%;
   text-align: center;
   width: 80%;
 }
@@ -173,4 +175,146 @@ body {
   color: var(--product-white);
 }
 
-/*............PRODUCT - ...............*/
+/*............PRODUCT - CAN...............*/
+
+.can-container {
+  width: 50%;
+  height: fit-content;
+  margin: 5%;
+  padding: 2%;
+  border: 1px solid rgba(128, 128, 128, 0.493);
+
+  position: relative;
+}
+
+.can-sale-label {
+  background: var(--product-yellow);
+
+  color: var(--product-gray);
+  font-weight: bold;
+  font-size: 1.25rem;
+
+  padding: 1% 3%;
+  border-radius: 3%;
+
+  position: absolute;
+  right: 5%;
+  top: 4%;
+}
+
+.can-discount-label {
+  background: var(--product-red);
+
+  color: var(--product-white);
+  font-weight: bold;
+  font-size: 1.45rem;
+
+  padding: 6% 3%;
+  border-radius: 50%;
+
+  position: absolute;
+  left: 7%;
+  top: 5%;
+}
+
+.can-photo {
+  width: 100%;
+}
+
+.can-photo img {
+  width: inherit;
+}
+
+.can-product-name {
+  font-weight: bold;
+  font-size: 1.85rem;
+  text-align: center;
+  margin: 2% 0;
+}
+
+.can-uppercase {
+  text-transform: uppercase;
+}
+
+.can-product-description {
+  padding: 0.5rem;
+}
+
+.can-ship-info-container {
+  padding: 8%;
+  margin-bottom: 16px;
+
+  background: var(--product-lightgray);
+
+  position: relative;
+}
+
+.can-shippment-label {
+  background: var(--product-white);
+
+  color: var(--product-red);
+  font-weight: bold;
+  font-size: 0.85rem;
+
+  padding: 2% 1%;
+  border: 2px solid var(--product-red);
+  border-radius: 5%;
+  margin: 3%;
+
+  position: absolute;
+  left: 0%;
+  top: 10%;
+}
+
+.can-stock-info {
+  color: var(--product-green);
+  font-weight: bold;
+  font-size: 0.85rem;
+  text-decoration: underline;
+
+  padding: 2% 1%;
+  margin: 3%;
+
+  position: absolute;
+  right: 0%;
+  top: 10%;
+}
+
+.can-price-text {
+  font-weight: bold;
+  font-size: 0.9rem;
+
+  margin: 0.5rem;
+}
+
+.can-usual-price {
+  color: var(--product-gray);
+  font-size: 0.9rem;
+  text-decoration: line-through;
+
+  margin: 0.5rem;
+}
+
+.can-discount-price {
+  font-size: 1.5rem;
+  font-weight: bold;
+
+  margin: 0.5rem;
+}
+
+.can-add-to-cart-button {
+  background: var(--product-red);
+
+  font-weight: bold;
+  font-size: 1.45rem;
+
+  padding: 2% 0;
+  margin: 5% 10%;
+  text-align: center;
+  width: 80%;
+}
+
+.can-add-to-cart-button a {
+  text-decoration: none;
+  color: var(--product-white);
+}

@@ -24,11 +24,15 @@ body {
 
 /*..........................PRODUCT - BOOTS.....................*/
 
+.main {
+  max-width: 1000px;
+}
+
 .boots-container {
   width: 43%;
   height: fit-content;
   margin: 3rem 0 3rem 3rem;
-  padding: 1.5rem;
+  padding: 1rem;
   border: 1px solid rgba(128, 128, 128, 0.493);
 
   position: relative;
@@ -40,38 +44,36 @@ body {
 
   color: var(--product-gray);
   font-weight: bold;
-  font-size: 1.25rem;
+  font-size: 18px;
 
   padding: 5px 10px;
   border-radius: 3%;
 
-  position: absolute;
-  right: 8%;
-  top: 4%;
-}
-
-.boots-discount-label-container {
-  background: var(--product-red);
-
-  border-radius: 50%;
-  width: 80px;
-  height: 80px;
+  display: inline-block;
 
   position: absolute;
-  left: 10%;
-  top: 5%;
-
-  text-align: center;
+  right: 5%;
+  top: 3%;
 }
 
 .boots-discount-label {
+  background: var(--product-red);
+
   color: var(--product-white);
   font-weight: bold;
   font-size: 1.45rem;
 
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  padding: 25px 10px;
+
+  display: inline-block;
+  text-align: center;
+
   position: absolute;
-  left: 13%;
-  top: 33%;
+  left: 9%;
+  top: 4%;
 }
 
 .boots-photo {
@@ -215,38 +217,36 @@ body {
 
   color: var(--product-gray);
   font-weight: bold;
-  font-size: 1.25rem;
+  font-size: 18px;
 
   padding: 5px 10px;
   border-radius: 3%;
 
+  display: inline-block;
+
   position: absolute;
   right: 5%;
-  top: 4%;
-}
-
-.can-discount-label-container {
-  background: var(--product-red);
-
-  border-radius: 50%;
-  width: 80px;
-  height: 80px;
-
-  position: absolute;
-  left: 10%;
-  top: 7%;
-
-  text-align: center;
+  top: 3%;
 }
 
 .can-discount-label {
+  background: var(--product-red);
+
   color: var(--product-white);
   font-weight: bold;
   font-size: 1.45rem;
 
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  padding: 25px 10px;
+
+  text-align: center;
+  display: inline-block;
+
   position: absolute;
-  left: 15%;
-  top: 33%;
+  left: 9%;
+  top: 5%;
 }
 
 .can-photo {

@@ -26,13 +26,14 @@ body {
 /*..........................PRODUCT - BOOTS.....................*/
 
 .boots-container {
-  width: 50%;
+  width: 43%;
   height: fit-content;
-  margin: 5%;
+  margin: 5% 0 5% 5%;
   padding: 2%;
   border: 1px solid rgba(128, 128, 128, 0.493);
 
   position: relative;
+  float: left;
 }
 
 .boots-bestseller-label {
@@ -193,13 +194,14 @@ body {
 /*..........................PRODUCT - CAN......................*/
 
 .can-container {
-  width: 50%;
+  width: 43%;
   height: fit-content;
-  margin: 5%;
+  margin: 5% 7% 5% 0;
   padding: 2%;
   border: 1px solid rgba(128, 128, 128, 0.493);
 
   position: relative;
+  float: right;
 }
 
 .can-sale-label {

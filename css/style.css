@@ -81,7 +81,7 @@ body {
 }
 
 .boots-photo img {
-  width: inherit;
+  max-width: 100%;
 }
 
 .boots-product-name {
@@ -254,7 +254,7 @@ body {
 }
 
 .can-photo img {
-  width: inherit;
+  max-width: 100%;
 }
 
 .can-product-name {

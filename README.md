@@ -4,7 +4,7 @@ Na základe druhej lekcie ENGETO kurzu som vytvoril dve jednoduché produktové 
 
 Pardon za prvú nekvalitnú foto, no moc ma bavila, tak som ju tam dal. 
 
-Chcel som dať tie produkty vedľa seba, ale cez display: flex mi to nejak nešlo spraviť, aby som tam mal celý content, ešte v tom plávam... 
+Chcel som dať tie produkty vedľa seba, ale cez display: flex mi to nejak nešlo spraviť, aby som tam mal celý content, ešte v tom plávam... EDIT: Zahliadol som niekde "float", na ten som úplne zabudol, tak som ho využil a už to vypadá jakš-takš, akurát teda jeden left a druhý right je fajn pri dvoch produktoch, pri viacerých budem v prdeli, musím doučiť :)
 
 Rovnako mi robilo problém spraviť peknú border-radius (vždy mi to zkosí nejak divne), tak som ju tam ani nedával... 
 

@@ -110,6 +110,10 @@ body {
   text-align: center;
 }
 
+.boots-product-description details summary:hover {
+  cursor: pointer;
+}
+
 .boots-product-description details p {
   margin-bottom: 10px;
 }
